@@ -1,0 +1,27 @@
+body{
+    font: 100%, Georgia, Garamond, "Times New Roman", serif;
+    text-align: center;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+main {
+    width: auto;
+    max-width: 1000px;
+    min-height: 400px;
+    margin: 10px auto;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: blueviolet;
+    background-image: linear-gradient(blueviolet, white);
+}
+h1 {
+    
+}
+h2 {
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+p:last-of-type {
+    font-weight: 800;
+} 

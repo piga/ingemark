@@ -1,0 +1,74 @@
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+/*  sticky footer navbar*/
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  /*margin-bottom: 60px;*/
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+main {
+  margin-top: 20px;
+}
+table {
+    margin-top: 15px;
+}
+
+/* moje */
+.col > a {
+    text-decoration: none;
+}
+/* Za animiranje strelica */
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+}
+.icon-link > .bi {
+  margin-top: .125rem;
+  margin-left: .125rem;
+/*  transition: transform .25s ease-in-out; */
+  fill: currentColor;
+}
+/*
+.icon-link:hover > .bi {
+  transform: translate(.25rem);
+}  */
+
+/*opet moje
+svg {
+    transform: rotate(90deg);
+}*/
+.link-info {
+    text-decoration: none;
+}
+.bi-chevron-left {
+    font-size: 1rem;
+}
+.bi-chevron-right {
+    display: inline-block;
+    /*transform: rotate(20deg);*/
+}
